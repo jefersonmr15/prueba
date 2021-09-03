@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Scenarios" time="74.864" tests="3" failures="1" errors="0">
+   <testsuite name="Scenarios" tests="3" failures="1" errors="0" time="74.864" skipped="0" timestamp="2021-09-03 00:25:57" hostname="Jefferson - PC-Central" id="Test Suites/Scenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jefferson\\Documents\\Documentos para entrevista\\Proyectos\\test\\Reports\\20210903_002555\\Scenarios\\20210903_002555"/>
+         <property name="logFiles" value="C:\\Users\\Jefferson\\Documents\\Documentos para entrevista\\Proyectos\\test\\Reports\\20210903_002555\\Scenarios\\20210903_002555\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Jefferson\\Documents\\Documentos para entrevista\\Proyectos\\test\\Reports\\20210903_002555\\Scenarios\\20210903_002555\\1630646779758.png"/>
+         <property name="hostName" value="Jefferson - PC-Central"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Edge Chromium 92"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="d51679ef4b7b2e7c57cd980d7b2e0c6f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SuccessfulEconomicReserve" time="22.434" classname="Test Cases/SuccessfulEconomicReserve" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SuccessfulEconomicReserve FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Price/Selection'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at SuccessfulEconomicReserve.run(SuccessfulEconomicReserve:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1630646755081.run(TempTestSuite1630646755081.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Price/Selection' located by '(//*[@class='select-cabin-button cro-click-assigned'])[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-09-03 00:25:57 - [TEST_CASE][FAILED] - Test Cases/SuccessfulEconomicReserve: Test Cases/SuccessfulEconomicReserve FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Price/Selection'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at SuccessfulEconomicReserve.run(SuccessfulEconomicReserve:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1630646755081.run(TempTestSuite1630646755081.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Price/Selection' located by '(//*[@class='select-cabin-button cro-click-assigned'])[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-09-03 00:25:57 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+2021-09-03 00:25:57 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://www.avianca.com/co/es/'
+
+2021-09-03 00:25:57 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-09-03 00:25:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-03 00:26:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.avianca.com/co/es/'
+
+2021-09-03 00:26:03 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2021-09-03 00:26:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2021-09-03 00:26:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-03 00:26:03 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2021-09-03 00:26:03 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2021-09-03 00:26:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-03 00:26:03 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-03 00:26:03 - [TEST_STEP][PASSED] - click(findTestObject("reservation/cityInput", ["field":from, "index":2])): Object: 'Object Repository/reservation/cityInput' is clicked on
+
+2021-09-03 00:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/cityInput' is clicked on
+
+2021-09-03 00:26:04 - [TEST_STEP][PASSED] - setText(findTestObject("reservation/cityInput", ["field":from, "index":2]), findTestData("Reservation").getValue("fromCity", 1)): Text 'Cali' is set on object 'Object Repository/reservation/cityInput'
+
+2021-09-03 00:26:04 - [MESSAGE][PASSED] - Text 'Cali' is set on object 'Object Repository/reservation/cityInput'
+
+2021-09-03 00:26:04 - [TEST_STEP][PASSED] - click(findTestObject("reservation/SelectCityList", ["index":1])): Object: 'Object Repository/reservation/SelectCityList' is clicked on
+
+2021-09-03 00:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/SelectCityList' is clicked on
+
+2021-09-03 00:26:04 - [TEST_STEP][PASSED] - click(findTestObject("reservation/cityInput", ["field":to, "index":5])): Object: 'Object Repository/reservation/cityInput' is clicked on
+
+2021-09-03 00:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/cityInput' is clicked on
+
+2021-09-03 00:26:04 - [TEST_STEP][PASSED] - setText(findTestObject("reservation/cityInput", ["field":to, "index":5]), findTestData("Reservation").getValue("toCity", 1)): Text 'Madrid' is set on object 'Object Repository/reservation/cityInput'
+
+2021-09-03 00:26:05 - [MESSAGE][PASSED] - Text 'Madrid' is set on object 'Object Repository/reservation/cityInput'
+
+2021-09-03 00:26:05 - [TEST_STEP][PASSED] - click(findTestObject("reservation/SelectCityList", ["index":2])): Object: 'Object Repository/reservation/SelectCityList' is clicked on
+
+2021-09-03 00:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/SelectCityList' is clicked on
+
+2021-09-03 00:26:05 - [TEST_STEP][PASSED] - click(findTestObject("reservation/dateDepartureInput")): Object: 'Object Repository/reservation/dateDepartureInput' is clicked on
+
+2021-09-03 00:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/dateDepartureInput' is clicked on
+
+2021-09-03 00:26:05 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("reservation/calenderDepartureDiv", ["value":findTestData("Reservation").getValue("dataDeparture", 1)]), 0): Object 'Object Repository/reservation/calenderDepartureDiv' is clickable
+
+2021-09-03 00:26:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2021-09-03 00:26:06 - [MESSAGE][PASSED] - Object 'Object Repository/reservation/calenderDepartureDiv' is clickable
+
+2021-09-03 00:26:06 - [TEST_STEP][PASSED] - click(findTestObject("reservation/calenderDepartureDiv", ["value":findTestData("Reservation").getValue("dataDeparture", 1)])): Object: 'Object Repository/reservation/calenderDepartureDiv' is clicked on
+
+2021-09-03 00:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/calenderDepartureDiv' is clicked on
+
+2021-09-03 00:26:06 - [TEST_STEP][PASSED] - click(findTestObject("reservation/dateBackInput")): Object: 'Object Repository/reservation/dateBackInput' is clicked on
+
+2021-09-03 00:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/dateBackInput' is clicked on
+
+2021-09-03 00:26:06 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("reservation/calenderDepartureDiv", ["value":findTestData("Reservation").getValue("dataBack", 1)]), 0): Object 'Object Repository/reservation/calenderDepartureDiv' is clickable
+
+2021-09-03 00:26:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2021-09-03 00:26:06 - [MESSAGE][PASSED] - Object 'Object Repository/reservation/calenderDepartureDiv' is clickable
+
+2021-09-03 00:26:06 - [TEST_STEP][PASSED] - click(findTestObject("reservation/calenderDepartureDiv", ["value":findTestData("Reservation").getValue("dataBack", 1)])): Object: 'Object Repository/reservation/calenderDepartureDiv' is clicked on
+
+2021-09-03 00:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/calenderDepartureDiv' is clicked on
+
+2021-09-03 00:26:07 - [TEST_STEP][PASSED] - click(findTestObject("reservation/searchButton")): Object: 'Object Repository/reservation/searchButton' is clicked on
+
+2021-09-03 00:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/searchButton' is clicked on
+
+2021-09-03 00:26:07 - [TEST_STEP][PASSED] - navigateToUrl("https://booking.avianca.com/av/booking/avail?from=" + value1 + "&to=" + value2 + "&departureDate=" + date1 + "&nbAdults=1&nbChildren=0&nbInfants=0&language=ES&pointOfSale=CO&tripType=round-trip&returnDate=" + date2 + "&FriendlyID=&FriendlyIDNegoF=&overrides=%7B%22useHPP%22:%22false%22%7D&accessMethod=default&backend=PRD"): Navigate to 'https://booking.avianca.com/av/booking/avail?from=CLO&to=MAD&departureDate=2021-10-01&nbAdults=1&nbChildren=0&nbInfants=0&language=ES&pointOfSale=CO&tripType=round-trip&returnDate=2021-11-01&FriendlyID=&FriendlyIDNegoF=&overrides=%7B%22useHPP%22:%22false%22%7D&accessMethod=default&backend=PRD' successfully
+
+2021-09-03 00:26:08 - [MESSAGE][PASSED] - Navigate to 'https://booking.avianca.com/av/booking/avail?from=CLO&to=MAD&departureDate=2021-10-01&nbAdults=1&nbChildren=0&nbInfants=0&language=ES&pointOfSale=CO&tripType=round-trip&returnDate=2021-11-01&FriendlyID=&FriendlyIDNegoF=&overrides=%7B%22useHPP%22:%22false%22%7D&accessMethod=default&backend=PRD' successfully
+
+2021-09-03 00:26:08 - [TEST_STEP][FAILED] - click(findTestObject("Price/Selection")): Unable to click on object 'Object Repository/Price/Selection' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Price/Selection'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at SuccessfulEconomicReserve.run(SuccessfulEconomicReserve:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1630646755081.run(TempTestSuite1630646755081.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Price/Selection' located by '(//*[@class='select-cabin-button cro-click-assigned'])[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1630646297033.run(Script1630646297033.groovy:58)
+	... 13 more
+)
+
+2021-09-03 00:26:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[@class='select-cabin-button cro-click-assigned'])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-09-03 00:26:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Price/Selection'. Try using Self-healing.
+
+2021-09-03 00:26:19 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the XPath is null.
+
+2021-09-03 00:26:19 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2021-09-03 00:26:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Price/Selection' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Price/Selection'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at SuccessfulEconomicReserve.run(SuccessfulEconomicReserve:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1630646755081.run(TempTestSuite1630646755081.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Price/Selection' located by '(//*[@class='select-cabin-button cro-click-assigned'])[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1630646297033.run(Script1630646297033.groovy:58)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Jefferson\\Documents\\Documentos para entrevista\\Proyectos\\test\\Reports\\20210903_002555\\Scenarios\\20210903_002555\\1630646779758.png]]
+
+2021-09-03 00:26:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-09-03 00:26:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-09-03 00:26:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2021-09-03 00:25:57 - [TEST_CASE][FAILED] - Test Cases/SuccessfulEconomicReserve: Test Cases/SuccessfulEconomicReserve FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Price/Selection'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at SuccessfulEconomicReserve.run(SuccessfulEconomicReserve:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1630646755081.run(TempTestSuite1630646755081.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Price/Selection' located by '(//*[@class='select-cabin-button cro-click-assigned'])[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FlightSchedules" time="44.025" classname="Test Cases/FlightSchedules" status="PASSED">
+         <system-out><![CDATA[2021-09-03 00:26:19 - [TEST_CASE][PASSED] - Test Cases/FlightSchedules: Test Cases/FlightSchedules
+
+2021-09-03 00:26:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+2021-09-03 00:26:20 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://www.avianca.com/co/es/'
+
+2021-09-03 00:26:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-09-03 00:26:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-09-03 00:26:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-03 00:26:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.avianca.com/co/es/'
+
+2021-09-03 00:26:24 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2021-09-03 00:26:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2021-09-03 00:26:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-03 00:26:24 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2021-09-03 00:26:24 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2021-09-03 00:26:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-03 00:26:25 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-03 00:26:25 - [TEST_STEP][PASSED] - click(findTestObject("menu/itemMenu")): Object: 'Object Repository/menu/itemMenu' is clicked on
+
+2021-09-03 00:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/menu/itemMenu' is clicked on
+
+2021-09-03 00:26:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("menu/link"), 0): Object 'Object Repository/menu/link' is clickable
+
+2021-09-03 00:26:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2021-09-03 00:26:25 - [MESSAGE][PASSED] - Object 'Object Repository/menu/link' is clickable
+
+2021-09-03 00:26:25 - [TEST_STEP][PASSED] - click(findTestObject("menu/link")): Object: 'Object Repository/menu/link' is clicked on
+
+2021-09-03 00:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/menu/link' is clicked on
+
+2021-09-03 00:26:27 - [TEST_STEP][PASSED] - click(findTestObject("reservation/cityInput", ["field":from, "index":1])): Object: 'Object Repository/reservation/cityInput' is clicked on
+
+2021-09-03 00:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/cityInput' is clicked on
+
+2021-09-03 00:26:27 - [TEST_STEP][PASSED] - setText(findTestObject("reservation/cityInput", ["field":from, "index":1]), findTestData("Reservation").getValue("fromCity", 1)): Text 'Cali' is set on object 'Object Repository/reservation/cityInput'
+
+2021-09-03 00:26:27 - [MESSAGE][PASSED] - Text 'Cali' is set on object 'Object Repository/reservation/cityInput'
+
+2021-09-03 00:26:27 - [TEST_STEP][PASSED] - click(findTestObject("reservation/SelectCityList", ["index":1])): Object: 'Object Repository/reservation/SelectCityList' is clicked on
+
+2021-09-03 00:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/SelectCityList' is clicked on
+
+2021-09-03 00:26:27 - [TEST_STEP][PASSED] - click(findTestObject("reservation/cityInput", ["field":to, "index":1])): Object: 'Object Repository/reservation/cityInput' is clicked on
+
+2021-09-03 00:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/cityInput' is clicked on
+
+2021-09-03 00:26:27 - [TEST_STEP][PASSED] - setText(findTestObject("reservation/cityInput", ["field":to, "index":1]), findTestData("Reservation").getValue("toCity", 1)): Text 'Madrid' is set on object 'Object Repository/reservation/cityInput'
+
+2021-09-03 00:26:28 - [MESSAGE][PASSED] - Text 'Madrid' is set on object 'Object Repository/reservation/cityInput'
+
+2021-09-03 00:26:28 - [TEST_STEP][PASSED] - click(findTestObject("reservation/SelectCityList", ["index":2])): Object: 'Object Repository/reservation/SelectCityList' is clicked on
+
+2021-09-03 00:26:28 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/SelectCityList' is clicked on
+
+2021-09-03 00:26:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("menu/dateDepartureInput"), 0): Scroll to object 'Object Repository/menu/dateDepartureInput' successfully
+
+2021-09-03 00:26:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2021-09-03 00:26:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/menu/dateDepartureInput' successfully
+
+2021-09-03 00:26:28 - [TEST_STEP][PASSED] - click(findTestObject("menu/dateDepartureInput")): Object: 'Object Repository/menu/dateDepartureInput' is clicked on
+
+2021-09-03 00:26:28 - [MESSAGE][PASSED] - Object: 'Object Repository/menu/dateDepartureInput' is clicked on
+
+2021-09-03 00:26:28 - [TEST_STEP][PASSED] - click(findTestObject("menu/dateDepartureInput")): Object: 'Object Repository/menu/dateDepartureInput' is clicked on
+
+2021-09-03 00:26:28 - [MESSAGE][PASSED] - Object: 'Object Repository/menu/dateDepartureInput' is clicked on
+
+2021-09-03 00:26:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-09-03 00:26:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-09-03 00:26:33 - [TEST_STEP][PASSED] - click(findTestObject("menu/calender", ["value":dateDeparture])): Object: 'Object Repository/menu/calender' is clicked on
+
+2021-09-03 00:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/menu/calender' is clicked on
+
+2021-09-03 00:26:33 - [TEST_STEP][PASSED] - click(findTestObject("menu/dateBackInput")): Object: 'Object Repository/menu/dateBackInput' is clicked on
+
+2021-09-03 00:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/menu/dateBackInput' is clicked on
+
+2021-09-03 00:26:34 - [TEST_STEP][PASSED] - click(findTestObject("menu/calender", ["value":dateBack])): Object: 'Object Repository/menu/calender' is clicked on
+
+2021-09-03 00:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/menu/calender' is clicked on
+
+2021-09-03 00:26:34 - [TEST_STEP][PASSED] - click(findTestObject("menu/queryButton")): Object: 'Object Repository/menu/queryButton' is clicked on
+
+2021-09-03 00:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/menu/queryButton' is clicked on
+
+2021-09-03 00:26:34 - [TEST_STEP][PASSED] - switchToWindowTitle("Itinerario de vuelos | Avianca"): Switched to window with title: 'Itinerario de vuelos | Avianca'
+
+2021-09-03 00:26:53 - [MESSAGE][PASSED] - Switched to window with title: 'Itinerario de vuelos | Avianca'
+
+2021-09-03 00:26:53 - [TEST_STEP][PASSED] - click(findTestObject("menu/filter")): Object: 'Object Repository/menu/filter' is clicked on
+
+2021-09-03 00:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/menu/filter' is clicked on
+
+2021-09-03 00:26:53 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2021-09-03 00:27:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2021-09-03 00:27:03 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-09-03 00:27:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-09-03 00:27:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RequieredFormat" time="7.147" classname="Test Cases/RequieredFormat" status="PASSED">
+         <system-out><![CDATA[2021-09-03 00:27:03 - [TEST_CASE][PASSED] - Test Cases/RequieredFormat: Test Cases/RequieredFormat
+
+2021-09-03 00:27:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+2021-09-03 00:27:03 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://www.avianca.com/co/es/'
+
+2021-09-03 00:27:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-09-03 00:27:04 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-09-03 00:27:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-03 00:27:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.avianca.com/co/es/'
+
+2021-09-03 00:27:08 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2021-09-03 00:27:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2021-09-03 00:27:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-09-03 00:27:08 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2021-09-03 00:27:08 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2021-09-03 00:27:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-03 00:27:09 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-03 00:27:09 - [TEST_STEP][PASSED] - click(findTestObject("reservation/searchButton")): Object: 'Object Repository/reservation/searchButton' is clicked on
+
+2021-09-03 00:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/reservation/searchButton' is clicked on
+
+2021-09-03 00:27:09 - [TEST_STEP][PASSED] - verifyTextPresent("Para continuar, por favor corregir los 4 errores indicados", false): Text 'Para continuar, por favor corregir los 4 errores indicados' is present on page 
+
+2021-09-03 00:27:09 - [MESSAGE][PASSED] - Text 'Para continuar, por favor corregir los 4 errores indicados' is present on page 
+
+2021-09-03 00:27:09 - [TEST_STEP][PASSED] - verifyTextPresent("Desde: Selecciona un origen", false): Text 'Desde: Selecciona un origen' is present on page 
+
+2021-09-03 00:27:10 - [MESSAGE][PASSED] - Text 'Desde: Selecciona un origen' is present on page 
+
+2021-09-03 00:27:10 - [TEST_STEP][PASSED] - verifyTextPresent("Hacia: Selecciona un destino", false): Text 'Hacia: Selecciona un destino' is present on page 
+
+2021-09-03 00:27:10 - [MESSAGE][PASSED] - Text 'Hacia: Selecciona un destino' is present on page 
+
+2021-09-03 00:27:10 - [TEST_STEP][PASSED] - verifyTextPresent("Salida: This field is required.", false): Text 'Salida: This field is required.' is present on page 
+
+2021-09-03 00:27:10 - [MESSAGE][PASSED] - Text 'Salida: This field is required.' is present on page 
+
+2021-09-03 00:27:10 - [TEST_STEP][PASSED] - verifyTextPresent("Fechas de viaje:: Selecciona la fecha de vuelta", false): Text 'Fechas de viaje:: Selecciona la fecha de vuelta' is present on page 
+
+2021-09-03 00:27:11 - [MESSAGE][PASSED] - Text 'Fechas de viaje:: Selecciona la fecha de vuelta' is present on page 
+
+2021-09-03 00:27:11 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-09-03 00:27:11 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-09-03 00:27:11 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-03 00:25:57 - [TEST_SUITE][FAILED] - Scenarios: Test Cases/SuccessfulEconomicReserve FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Price/Selection'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at SuccessfulEconomicReserve.run(SuccessfulEconomicReserve:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1630646755081.run(TempTestSuite1630646755081.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Price/Selection' located by '(//*[@class='select-cabin-button cro-click-assigned'])[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-09-03 00:25:57 - [TEST_SUITE][FAILED] - Scenarios: Test Cases/SuccessfulEconomicReserve FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Price/Selection'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at SuccessfulEconomicReserve.run(SuccessfulEconomicReserve:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1630646755081.run(TempTestSuite1630646755081.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Price/Selection' located by '(//*[@class='select-cabin-button cro-click-assigned'])[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scenarios,Edge Chromium 92,,,2021-09-03 00:25:57,2021-09-03 00:27:11,"1m - 13,816s",FAILED
+,,,,,,,
+Test Cases/SuccessfulEconomicReserve,Edge Chromium 92,,,2021-09-03 00:25:57,2021-09-03 00:26:19,"22,434s",FAILED
+Start listener action : sampleBeforeTestCase,Edge Chromium 92,,,2021-09-03 00:25:57,2021-09-03 00:26:03,"5,826s",PASSED
+"click(findTestObject(""reservation/cityInput"", [""field"":from, ""index"":2]))",Edge Chromium 92,,,2021-09-03 00:26:03,2021-09-03 00:26:04,"0,233s",PASSED
+"setText(findTestObject(""reservation/cityInput"", [""field"":from, ""index"":2]), findTestData(""Reservation"").getValue(""fromCity"", 1))",Edge Chromium 92,,,2021-09-03 00:26:04,2021-09-03 00:26:04,"0,370s",PASSED
+"click(findTestObject(""reservation/SelectCityList"", [""index"":1]))",Edge Chromium 92,,,2021-09-03 00:26:04,2021-09-03 00:26:04,"0,244s",PASSED
+"click(findTestObject(""reservation/cityInput"", [""field"":to, ""index"":5]))",Edge Chromium 92,,,2021-09-03 00:26:04,2021-09-03 00:26:04,"0,170s",PASSED
+"setText(findTestObject(""reservation/cityInput"", [""field"":to, ""index"":5]), findTestData(""Reservation"").getValue(""toCity"", 1))",Edge Chromium 92,,,2021-09-03 00:26:04,2021-09-03 00:26:05,"0,290s",PASSED
+"click(findTestObject(""reservation/SelectCityList"", [""index"":2]))",Edge Chromium 92,,,2021-09-03 00:26:05,2021-09-03 00:26:05,"0,177s",PASSED
+"click(findTestObject(""reservation/dateDepartureInput""))",Edge Chromium 92,,,2021-09-03 00:26:05,2021-09-03 00:26:05,"0,339s",PASSED
+"waitForElementClickable(findTestObject(""reservation/calenderDepartureDiv"", [""value"":findTestData(""Reservation"").getValue(""dataDeparture"", 1)]), 0)",Edge Chromium 92,,,2021-09-03 00:26:05,2021-09-03 00:26:06,"0,488s",PASSED
+"click(findTestObject(""reservation/calenderDepartureDiv"", [""value"":findTestData(""Reservation"").getValue(""dataDeparture"", 1)]))",Edge Chromium 92,,,2021-09-03 00:26:06,2021-09-03 00:26:06,"0,507s",PASSED
+"click(findTestObject(""reservation/dateBackInput""))",Edge Chromium 92,,,2021-09-03 00:26:06,2021-09-03 00:26:06,"0,204s",PASSED
+"waitForElementClickable(findTestObject(""reservation/calenderDepartureDiv"", [""value"":findTestData(""Reservation"").getValue(""dataBack"", 1)]), 0)",Edge Chromium 92,,,2021-09-03 00:26:06,2021-09-03 00:26:06,"0,118s",PASSED
+"click(findTestObject(""reservation/calenderDepartureDiv"", [""value"":findTestData(""Reservation"").getValue(""dataBack"", 1)]))",Edge Chromium 92,,,2021-09-03 00:26:06,2021-09-03 00:26:07,"0,202s",PASSED
+"click(findTestObject(""reservation/searchButton""))",Edge Chromium 92,,,2021-09-03 00:26:07,2021-09-03 00:26:07,"0,254s",PASSED
+"navigateToUrl(""https://booking.avianca.com/av/booking/avail?from="" + value1 + ""&to="" + value2 + ""&departureDate="" + date1 + ""&nbAdults=1&nbChildren=0&nbInfants=0&language=ES&pointOfSale=CO&tripType=round-trip&returnDate="" + date2 + ""&FriendlyID=&FriendlyIDNegoF=&overrides=%7B%22useHPP%22:%22false%22%7D&accessMethod=default&backend=PRD"")",Edge Chromium 92,,,2021-09-03 00:26:07,2021-09-03 00:26:08,"1,267s",PASSED
+"click(findTestObject(""Price/Selection""))",Edge Chromium 92,,,2021-09-03 00:26:08,2021-09-03 00:26:19,"11,236s",FAILED
+Start listener action : sampleAfterTestCase,Edge Chromium 92,,,2021-09-03 00:26:19,2021-09-03 00:26:19,"0,010s",PASSED
+,,,,,,,
+Test Cases/FlightSchedules,Edge Chromium 92,,,2021-09-03 00:26:19,2021-09-03 00:27:03,"44,025s",PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 92,,,2021-09-03 00:26:20,2021-09-03 00:26:25,"5,048s",PASSED
+"click(findTestObject(""menu/itemMenu""))",Edge Chromium 92,,,2021-09-03 00:26:25,2021-09-03 00:26:25,"0,249s",PASSED
+"waitForElementClickable(findTestObject(""menu/link""), 0)",Edge Chromium 92,,,2021-09-03 00:26:25,2021-09-03 00:26:25,"0,100s",PASSED
+"click(findTestObject(""menu/link""))",Edge Chromium 92,,,2021-09-03 00:26:25,2021-09-03 00:26:27,"1,361s",PASSED
+"click(findTestObject(""reservation/cityInput"", [""field"":from, ""index"":1]))",Edge Chromium 92,,,2021-09-03 00:26:27,2021-09-03 00:26:27,"0,266s",PASSED
+"setText(findTestObject(""reservation/cityInput"", [""field"":from, ""index"":1]), findTestData(""Reservation"").getValue(""fromCity"", 1))",Edge Chromium 92,,,2021-09-03 00:26:27,2021-09-03 00:26:27,"0,214s",PASSED
+"click(findTestObject(""reservation/SelectCityList"", [""index"":1]))",Edge Chromium 92,,,2021-09-03 00:26:27,2021-09-03 00:26:27,"0,155s",PASSED
+"click(findTestObject(""reservation/cityInput"", [""field"":to, ""index"":1]))",Edge Chromium 92,,,2021-09-03 00:26:27,2021-09-03 00:26:27,"0,170s",PASSED
+"setText(findTestObject(""reservation/cityInput"", [""field"":to, ""index"":1]), findTestData(""Reservation"").getValue(""toCity"", 1))",Edge Chromium 92,,,2021-09-03 00:26:27,2021-09-03 00:26:28,"0,217s",PASSED
+"click(findTestObject(""reservation/SelectCityList"", [""index"":2]))",Edge Chromium 92,,,2021-09-03 00:26:28,2021-09-03 00:26:28,"0,150s",PASSED
+"scrollToElement(findTestObject(""menu/dateDepartureInput""), 0)",Edge Chromium 92,,,2021-09-03 00:26:28,2021-09-03 00:26:28,"0,097s",PASSED
+"click(findTestObject(""menu/dateDepartureInput""))",Edge Chromium 92,,,2021-09-03 00:26:28,2021-09-03 00:26:28,"0,186s",PASSED
+"click(findTestObject(""menu/dateDepartureInput""))",Edge Chromium 92,,,2021-09-03 00:26:28,2021-09-03 00:26:28,"0,150s",PASSED
+delay(5),Edge Chromium 92,,,2021-09-03 00:26:28,2021-09-03 00:26:33,"5,021s",PASSED
+"click(findTestObject(""menu/calender"", [""value"":dateDeparture]))",Edge Chromium 92,,,2021-09-03 00:26:33,2021-09-03 00:26:33,"0,201s",PASSED
+"click(findTestObject(""menu/dateBackInput""))",Edge Chromium 92,,,2021-09-03 00:26:33,2021-09-03 00:26:34,"0,148s",PASSED
+"click(findTestObject(""menu/calender"", [""value"":dateBack]))",Edge Chromium 92,,,2021-09-03 00:26:34,2021-09-03 00:26:34,"0,220s",PASSED
+"click(findTestObject(""menu/queryButton""))",Edge Chromium 92,,,2021-09-03 00:26:34,2021-09-03 00:26:34,"0,177s",PASSED
+"switchToWindowTitle(""Itinerario de vuelos | Avianca"")",Edge Chromium 92,,,2021-09-03 00:26:34,2021-09-03 00:26:53,"19,365s",PASSED
+"click(findTestObject(""menu/filter""))",Edge Chromium 92,,,2021-09-03 00:26:53,2021-09-03 00:26:53,"0,135s",PASSED
+delay(10),Edge Chromium 92,,,2021-09-03 00:26:53,2021-09-03 00:27:03,"10,014s",PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 92,,,2021-09-03 00:27:03,2021-09-03 00:27:03,"0,000s",PASSED
+,,,,,,,
+Test Cases/RequieredFormat,Edge Chromium 92,,,2021-09-03 00:27:03,2021-09-03 00:27:11,"7,147s",PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 92,,,2021-09-03 00:27:03,2021-09-03 00:27:09,"5,111s",PASSED
+"click(findTestObject(""reservation/searchButton""))",Edge Chromium 92,,,2021-09-03 00:27:09,2021-09-03 00:27:09,"0,234s",PASSED
+"verifyTextPresent(""Para continuar, por favor corregir los 4 errores indicados"", false)",Edge Chromium 92,,,2021-09-03 00:27:09,2021-09-03 00:27:09,"0,446s",PASSED
+"verifyTextPresent(""Desde: Selecciona un origen"", false)",Edge Chromium 92,,,2021-09-03 00:27:09,2021-09-03 00:27:10,"0,299s",PASSED
+"verifyTextPresent(""Hacia: Selecciona un destino"", false)",Edge Chromium 92,,,2021-09-03 00:27:10,2021-09-03 00:27:10,"0,255s",PASSED
+"verifyTextPresent(""Salida: This field is required."", false)",Edge Chromium 92,,,2021-09-03 00:27:10,2021-09-03 00:27:10,"0,248s",PASSED
+"verifyTextPresent(""Fechas de viaje:: Selecciona la fecha de vuelta"", false)",Edge Chromium 92,,,2021-09-03 00:27:10,2021-09-03 00:27:11,"0,318s",PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 92,,,2021-09-03 00:27:11,2021-09-03 00:27:11,"0,000s",PASSED
