@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-
 WebUI.click(findTestObject('reservation/cityInput', [('field') : from, ('index') : 2]))
 
 WebUI.setText(findTestObject('reservation/cityInput', [('field') : from, ('index') : 2]), findTestData('Reservation').getValue(
@@ -50,12 +48,4 @@ WebUI.click(findTestObject('reservation/calenderDepartureDiv', [('value') : find
                 1)]))
 
 WebUI.click(findTestObject('reservation/searchButton'))
-
-WebUI.navigateToUrl(((((((('https://booking.avianca.com/av/booking/avail?from=' + value1) + '&to=') + value2) + '&departureDate=') + 
-    date1) + '&nbAdults=1&nbChildren=0&nbInfants=0&language=ES&pointOfSale=CO&tripType=round-trip&returnDate=') + date2) + 
-    '&FriendlyID=&FriendlyIDNegoF=&overrides=%7B%22useHPP%22:%22false%22%7D&accessMethod=default&backend=PRD')
-
-WebUI.click(findTestObject('Price/Selection'))
-
-WebUI.click(findTestObject('Price/rate'))
 
