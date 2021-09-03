@@ -8,8 +8,11 @@ pass: Katalon123@
 se debe realizar desde https://github.com/jefersonmr15/prueba.git
 
 # 3) Validar la ejecución de los escenario 
-se debe ejecutar el archivo "Test Suite / Scenarios"
+ se debe ejecutar el archivo "Test Suite / Scenarios"
  Una vez finalizada la ejecución el sistema creara reportes de la ejecución
+ los escenarios que se plantearon para la ejecución no pudieron construirse en su totalidad debido a la limitante de la pagina de avianca
+ por tanto no fue necesario construirlos debido a que todos llegaban al mismo punto de bloqueo, el archivo se pueden encontrar dentro de
+ los archivos del repositorio con el nombre de Escenarios.xlsx
  
 # 4) Historial de los reportes 
 se pueden ver desde el reporsitorio de katalon testops, si se desea acceder a este se debe seleccionar en la barra de menu la opción 
