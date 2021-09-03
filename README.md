@@ -13,6 +13,7 @@ se debe realizar desde https://github.com/jefersonmr15/prueba.git
  los escenarios que se plantearon para la ejecución no pudieron construirse en su totalidad debido a la limitante de la pagina de avianca
  por tanto no fue necesario construirlos debido a que todos llegaban al mismo punto de bloqueo, el archivo se pueden encontrar dentro de
  los archivos del repositorio con el nombre de Escenarios.xlsx
+
  
 # 4) Historial de los reportes 
 se pueden ver desde el reporsitorio de katalon testops, si se desea acceder a este se debe seleccionar en la barra de menu la opción 
@@ -39,3 +40,6 @@ integración continua con jenkins o azure DevOps, y tiene incluida la herarmient
 las demas configuraciones se realizan desde la interface y quedan almacenados apra el proyecto como el tiempo por defecto de espera, el navegador 
 predeterminado apra la ejecución, los parametros de conección con las demas herramientas de integración y reportes, permitiendo asi que los escenarios 
 de prueba no se vean afectados por cambios en las configuraciones
+
+# 7) Evidencia
+ si se desea validar el video se puede ingresar a la siguiente URL https://share.vidyard.com/watch/uTe1qknPVrR6fRjT7GxfZa?
