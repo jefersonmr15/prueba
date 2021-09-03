@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FlightSchedules</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c159ead1-0d90-4ecb-9331-f248a8e798f2</testCaseGuid>
+   <variable>
+      <defaultValue>'pbOrigen'</defaultValue>
+      <description></description>
+      <id>728f4c78-cb4f-4aae-9d78-84ec2ad732d1</id>
+      <masked>false</masked>
+      <name>from</name>
+   </variable>
+   <variable>
+      <defaultValue>'destinoIter'</defaultValue>
+      <description></description>
+      <id>82dc3105-f90b-48c7-a912-be6bee536040</id>
+      <masked>false</masked>
+      <name>to</name>
+   </variable>
+   <variable>
+      <defaultValue>'2021-09-10'</defaultValue>
+      <description></description>
+      <id>9e61b728-6d5c-4243-9445-fe1e19041a79</id>
+      <masked>false</masked>
+      <name>dateDeparture</name>
+   </variable>
+   <variable>
+      <defaultValue>'2021-10-10'</defaultValue>
+      <description></description>
+      <id>91c330a7-7f4f-4bac-9a6a-618256b686ae</id>
+      <masked>false</masked>
+      <name>dateBack</name>
+   </variable>
+</TestCaseEntity>

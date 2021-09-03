@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Successful Economic Reserve</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2dade0f6-c566-440f-8774-81fc356e8861</testCaseGuid>
+   <variable>
+      <defaultValue>'pbOrigen'</defaultValue>
+      <description></description>
+      <id>728f4c78-cb4f-4aae-9d78-84ec2ad732d1</id>
+      <masked>false</masked>
+      <name>from</name>
+   </variable>
+   <variable>
+      <defaultValue>'pbDestino'</defaultValue>
+      <description></description>
+      <id>82dc3105-f90b-48c7-a912-be6bee536040</id>
+      <masked>false</masked>
+      <name>to</name>
+   </variable>
+   <variable>
+      <defaultValue>'2021-10-01'</defaultValue>
+      <description></description>
+      <id>12cc14ad-35de-454c-a4f4-0d75c80d0e18</id>
+      <masked>false</masked>
+      <name>date1</name>
+   </variable>
+   <variable>
+      <defaultValue>'2021-11-01'</defaultValue>
+      <description></description>
+      <id>89e9731b-2d1c-44d5-8aa7-935f164c5bd6</id>
+      <masked>false</masked>
+      <name>date2</name>
+   </variable>
+   <variable>
+      <defaultValue>'CLO'</defaultValue>
+      <description></description>
+      <id>a8a5015f-ee3d-435b-a6e0-3718b26e62cb</id>
+      <masked>false</masked>
+      <name>value1</name>
+   </variable>
+   <variable>
+      <defaultValue>'MAD'</defaultValue>
+      <description></description>
+      <id>4e22a75f-2291-440e-95a8-eff40acf33b6</id>
+      <masked>false</masked>
+      <name>value2</name>
+   </variable>
+</TestCaseEntity>
