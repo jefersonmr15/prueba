@@ -29,7 +29,7 @@ Se utilizo un archivo de datos para que si se desean cambiar los datos para la e
 se pueda realizar desde dicho archivo sin afectar los escenarios. Al construir el escenario con este patron se tiene como objetivo minizar 
 el esfuerzo necesario que se requiere para realizar mantenimiento de los escenarios
 
-#6 Lenguaje
+# 6 Lenguaje
 El lenguaje que usa la herramienta es groovy, asi la declaración de variables es no requiere de tipificación aunque se puede dar, si es 
 necesario se puede importar codigo construido desde selenium o construir metodos especificos, uso de librerias o plugins externos, uso de
 integración continua con jenkins o azure DevOps, y tiene incluida la herarmienta git para el manejo de control de codigo. Con respecto a 
